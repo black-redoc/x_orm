@@ -1,0 +1,6 @@
+[package]
+name = "rx_orm_mysql"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

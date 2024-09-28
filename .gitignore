@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Poetry specific files
+poetry.lock
+.env
+
+# Rust specific files
+target/
+*.rs.bk
+Cargo.lock
+
+# Maturin build artifacts
+*.egg-info/
+*.whl
+build/
+dist/
+
+# Virtual environment directories
+.env/
+venv/
+.venv/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+*.iml
+
+# Python pip cache directories
+pip-wheel-metadata/
+__pypackages__/
+
+# pytest and test coverage
+.coverage
+coverage.xml
+htmlcov/
+.cache/
+
+# Maturin's temporary artifacts
+.maturin/
